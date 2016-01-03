@@ -31,7 +31,7 @@ I first started thinking about this idea when I read Sivers’ post on [compress
 ## Contributing
 These are the guidelines I like to keep in mind when developing software. I am more than welcome to receive suggestions on how to make these thoughts accessible to the community at large, or discuss them in case you have questions. Yet I don’t plan to turn this into the "community guidelines" so, I don’t plan to make any changes to which I don’t agree to.
 
-You are more than welcome to fork this and whatever you want with the content. Everything I learned, I learned it from somebody else. I am more than happy to pay it forward.
+You are more than welcome to fork this and do whatever you want with the content. Everything I learned, I learned it from somebody else. I am more than happy to pay it forward.
 
 ## License
 MIT (c) Mário Nzualo. See [LICENSE](https://github.com/marionzualo/guides/blob/master/LICENSE) for details.
