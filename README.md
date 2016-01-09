@@ -9,7 +9,7 @@ Keep in mind:
 The main goals of this repository are:
 - document the guidelines I believe to be appropriate - so I can come back here from time to time in order to recall them.
 
-- document the links/books/videos that have helped me write those guidelines -  so I can share some of the great content that lead me to write those guidelines. I think these resources can be helpful for beginners starting out, or for experts trying to learn more about a certain topic.
+- document the links/books/videos that have helped me write those guidelines -  so I can share some of the great content that lead me to write those guidelines. I think these resources can be helpful for beginners starting out, or for anybody diving into a certain topic.
 
 This is a process I follow when learning about a certain topic and I figured it could be helpful to others as well.
 
@@ -29,7 +29,7 @@ A note on the language:
 I first started thinking about this idea when I read Sivers’ post on [compressing knowledge into directives](https://sivers.org/2do). The structure of this project is inspired by [Thoughtbot’s guides](https://github.com/thoughtbot/guides).
 
 ## Contributing
-These are the guidelines I like to keep in mind when developing software. I am more than welcome to receive suggestions on how to make these thoughts accessible to the community at large, or discuss them in case you have questions. Yet I don’t plan to turn this into the "community guidelines" so, I don’t plan to make any changes to which I don’t agree to.
+These are the guidelines I like to keep in mind when developing software. I am more than open to suggestions/ideas on how to make these thoughts accessible to the community at large, or discuss them in case you have questions. Yet I don’t plan to turn this into the "community guidelines" so, I don’t plan to make any changes to which I don’t agree to.
 
 You are more than welcome to fork this and do whatever you want with the content. Everything I learned, I learned it from somebody else. I am more than happy to pay it forward.
 
