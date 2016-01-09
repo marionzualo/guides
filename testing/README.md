@@ -114,3 +114,4 @@ mockist approach to testing.
 - [32] [Thoughts on the symmetry between good test names and your object's API](http://articles.coreyhaines.com/posts/test-names-should-influence-design/)
 - [33] [Better Mocking in Ruby](http://blog.carbonfive.com/2011/02/11/better-mocking-in-ruby/)
 - [34] [Best Practices: Testing Rails controllers with RSpec](http://codecrate.com/2014/11/rspec-controllers-best-practices.html)
+- [35] [Upcase's resources on testing](https://upcase.com/testing) - Upcase's resources on testing are really good.
