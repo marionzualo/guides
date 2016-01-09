@@ -26,7 +26,7 @@ framework code, or legacy code) [8]
 
 - Remember that tests are a tradeoff of confidence, coverage and speed - The tradeoffs one does depend largely on the
 context. This impacts in which layer to test (i.e. unit, integration), what to test (e.g. sad path, happy path), which
-tools to use (e.g. database, mocks, real objects, fakes) [9] [1]
+tools to use (e.g. database, mocks, real objects, fakes) [9] [1] [27] [28]
 
 - Only load ActiveRecord/Rails for tests that require it - loading Rails takes significant time when running tests. Fast
 tests are good. `spec_helper`, `rails_helper` and `active_record_helper` are your friends. [10] [11]
@@ -48,7 +48,19 @@ should be tested to ensure they get sent; Outgoing messages without side effects
 - In unit tests, units are not classes - A test is a unit if it runs fast and if it is easy to localize the source of
 test failures, therefore a unit might be a representation of multiple classes collaborating. [8] [19] [20]
 
-- Use tests as a way to define proper contracts and boundaries between components [21]
+- Use tests as a way to define proper contracts and boundaries between components [21] [32] [33]
+
+- Use FactoryGirl's traits [29]
+
+- Prefer using Rspec for integration tests rather than Cucumber [30]
+
+- Prefer spies over mocks in Rspec [31]
+
+- Mock roles not types [33] [21]
+
+- Don't mock types you don't own [33] [21]
+
+- Keep controller tests simple [34]
 
 ## Links
 - [1] [Testing Rails](https://gumroad.com/l/testing-rails) - a book that contains a nice introduction to testing on
@@ -93,4 +105,12 @@ in which he explains the difference between mocks and stubs. He also explains th
 mockist approach to testing.
 - [25] [Refactoring legacy code with tests](https://github.com/testdouble/contributing-tests/wiki/Refactoring-Legacy-code-with-tests)
 - [26] [How to Stop Hating your Test Suite by Justin Searls](https://www.youtube.com/watch?v=VD51AkG8EZw&list=PLE7tQUdRKcyYqT3LHMg4iH270kfyENCpp&index=10)
-
+- [27] [Fake Object](http://xunitpatterns.com/Fake%20Object.html) - A description of the fake object pattern
+- [28] [Faking APIs in Development and Staging](https://robots.thoughtbot.com/faking-apis-in-development-and-staging)
+- [29] [Remove Duplication with FactoryGirl's Traits](https://robots.thoughtbot.com/remove-duplication-with-factorygirls-traits)
+- https://robots.thoughtbot.com/remove-duplication-with-factorygirls-traits
+- [30] [BDDon’t](https://thoughtworks.github.io/p2/issue12/bdd-dont/)
+- [31] [A Closer Look at Test Spies](https://robots.thoughtbot.com/a-closer-look-at-test-spies)
+- [32] [Thoughts on the symmetry between good test names and your object's API](http://articles.coreyhaines.com/posts/test-names-should-influence-design/)
+- [33] [Better Mocking in Ruby](http://blog.carbonfive.com/2011/02/11/better-mocking-in-ruby/)
+- [34] [Best Practices: Testing Rails controllers with RSpec](http://codecrate.com/2014/11/rspec-controllers-best-practices.html)
